@@ -498,7 +498,7 @@
         <p class="lead">Последний важный вопрос. Подумайте хорошо. 😉</p>
 
         <div class="choices">
-          <button class="choice" type="button" onclick="chooseGuest('Марину')">
+          <button class="choice" type="button" onclick="chooseGuest('Марина')">
             <strong>Марину</strong>
           </button>
           <button class="choice danger" type="button" onclick="chooseGuest('какую-то стремную левую девушку')">
@@ -698,7 +698,7 @@
 
     function confirmGuest(answer) {
       if (answer === "no") {
-        state.guest = "Марину";
+        state.guest = "Марина";
         showStep(6);
         updateSummary();
       }
